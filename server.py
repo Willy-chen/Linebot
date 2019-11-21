@@ -40,9 +40,7 @@ def callback():
 def handle_message(event):
     userinput = event.message.text
     if userinput.find('救我'):
-        line_bot_api.reply_message(
-            event.reply_token,
-            TextSendMessage(test='我救不了你'))
+        line_bot_api.reply_message(event.reply_token,TextSendMessage(text='我救不了你'))
 
 
 # if __name__ == "__main__":
