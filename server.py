@@ -42,7 +42,7 @@ def handle_message(event):
     if userinput.find('救我'):
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage('我救不了你'))
+            TextSendMessage(test='我救不了你'))
 
 
 # if __name__ == "__main__":
