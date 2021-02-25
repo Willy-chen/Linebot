@@ -1,2 +1,2 @@
-# www
-www
+# Linebot
+Learning how to make a working Linebot using Python, heroku, gunicorn...
